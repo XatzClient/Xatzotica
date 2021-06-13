@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "poosexatzonic9000",
+  "version": "${version}",
+  "name": "Xatzotica",
+  "description": "Just another Fabric 1.17 hacked client made by the dank memer and skidder, Napoleon ZoomberParts (Halal skid mod 2021 camel fard shrex why am i so immature and shit at coding)",
+  "authors": [
+    "Napoleon ZoomberParts"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://xatzclient.tk/xatzclient/xatzotica.html",
+    "sources": "https://github.com/XatzClient/Xatzotica"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/poosexatzonic9000/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "Xatzotica.XatzInitialiserThingy"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "poosexatzonic9000.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.5",
+    "fabric": "*"
+  }
+}
